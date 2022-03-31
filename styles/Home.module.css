@@ -6,12 +6,11 @@
 
 .main {
     width: 95%;
-    max-width: 950px;
     min-width: 700px;
 
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: 2%;
 }
 
 .mission {
