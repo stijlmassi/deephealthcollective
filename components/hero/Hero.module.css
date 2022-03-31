@@ -3,8 +3,8 @@
     min-width: 100vw;
     min-height: 70vh;
     color: white;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    justify-content: center;
     background-size: 400% 400%;
     animation: gradient 20s alternate infinite;
     margin-top: -2.9rem;
@@ -30,6 +30,7 @@
 
 .titleCard{
     padding: 6rem;
+    min-width: 800px;
 }
 
 .title {
@@ -65,13 +66,16 @@
 }
 
 .cta {
+    min-width: 300px;
     display: flex;
+    justify-content: left;
+
     padding-bottom: 10rem;
-    margin-left: -3rem;
     padding-right: 1rem;
 }
 
 .contactUs {
+    max-width: 600px;
     margin-top: 3rem;
     padding: .42rem .7rem;
     border-radius: .5rem;
