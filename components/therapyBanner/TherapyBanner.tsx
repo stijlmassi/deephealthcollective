@@ -2,7 +2,7 @@ import styles from "./TherapyBanner.module.css"
 
 const TherapyBanner = () => {
     return (
-        <div className={`bannerWrapper1`}>
+        <div className={styles.wrapper}>
             <div>
                 <p className={styles.therapy}>Therapy</p>
             </div>

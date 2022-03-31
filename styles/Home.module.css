@@ -1,7 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #FFFAED;
+    background-color: #2d3234;
 }
 
 .main {
@@ -14,22 +14,9 @@
     padding: 1rem;
 }
 
-.wave1{
-
-}
-
-.wave2{
-
-}
-
-.wave3{
-
-}
-
-.wave4{
-
-}
-
-.hills{
-
+.mission {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    text-align: right;
 }

@@ -1,7 +1,7 @@
 <svg version="1.1" id="designs" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="32px" height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
 <style type="text/css">
-	.sketchy_een{fill:#EFEFEFFF;}
+	.sketchy_een{fill:#FFFFFFFF;}
 </style>
 <path class="sketchy_een" d="M16.51,31c-0.426,0-0.765-0.341-0.788-0.793c-0.02-0.407-0.002-0.818,0.016-1.226l0.011-0.277
 	c0.02-0.503,0.039-1.007,0.066-1.511c0.026-0.449,0.349-0.776,0.77-0.776c0.21,0,0.428,0.099,0.581,0.264

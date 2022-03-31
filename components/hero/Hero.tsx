@@ -10,7 +10,7 @@ const Hero = () => {
 
             </div>
             <div className={styles.cta}>
-                <img src={"/sun.svg"} alt={"heart"} className={styles.heart}/>
+                <img src={"/sun.svg"} alt={"heart"}/>
             </div>
         </section>
     )

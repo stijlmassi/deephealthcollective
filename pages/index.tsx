@@ -4,7 +4,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from "../components/navbar/NavBar";
 import Hero from "../components/hero/Hero";
-import ContactUsBanner from "../components/contactusBanner/ContactUsBanner";
 import TherapyBanner from "../components/therapyBanner/TherapyBanner";
 import useScrollPosition from "../hooks/useScrollPosition";
 
@@ -24,9 +23,8 @@ const Home: NextPage = () => {
         <NavBar/>
         <Hero/>
       <main className={styles.main}>
+          <h2 className={styles.mission}>Empathetic, personalized, comprehensive mental healthcare, right here in Kigali.</h2>
 
-          <ContactUsBanner/>
-          <TherapyBanner/>
       </main>
 
       <footer className={styles.footer}>

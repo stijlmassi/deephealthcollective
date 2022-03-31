@@ -70,7 +70,9 @@
     display: flex;
     justify-content: left;
     margin-right: 20%;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
+    opacity: 80%;
+    transform: rotate(20deg);
 }
 
 .contactUs {
