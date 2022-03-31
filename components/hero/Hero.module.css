@@ -1,0 +1,93 @@
+.background {
+    background-image: radial-gradient(circle, #aecbd0, #c5b6a3, #a7d2ce, #b0c5d5, #b7e3ff);
+    min-width: 100vw;
+    min-height: 70vh;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-size: 400% 400%;
+    animation: gradient 20s alternate infinite;
+    margin-top: -2.9rem;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 25%;
+    }
+    25% {
+        background-position: 25% 50%;
+    }
+    50% {
+        background-position: 50% 75%;
+    }
+    75% {
+        background-position: 75% 50%;
+    }
+    100% {
+        background-position: 100% 25%;
+    }
+}
+
+.titleCard{
+    padding: 6rem;
+}
+
+.title {
+    text-shadow:
+            7px 7px 11px rgba(255,255,255,0.4),
+            -7px -7px 11px rgba(0,0,0,0.08);
+    caret-color:#262626;
+    outline: none;
+    transition: text-shadow 1s;
+    font-family: 'Prata', serif;
+    font-size: 8rem;
+    max-width: 4rem;
+}
+
+.title:hover {
+    text-shadow:
+            7px 7px 11px rgba(255,255,255,0.4),
+            -7px -7px 11px rgba(0,0,0,0.08);
+}
+
+.highlight {
+    color: #2c2c2c;
+}
+
+.underTitle {
+    color: #2c2c2c;
+    margin: auto;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    padding: 1.5rem;
+    transition: background-color .7s;
+    min-width: 100%;
+}
+
+.cta {
+    display: flex;
+    padding-bottom: 10rem;
+    margin-left: -3rem;
+    padding-right: 1rem;
+}
+
+.contactUs {
+    margin-top: 3rem;
+    padding: .42rem .7rem;
+    border-radius: .5rem;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    background-color: #ff4d4d;
+    box-shadow: 3px -3px 6px #a8a8a8,
+    -3px 3px 6px #cecece;
+    text-shadow:
+            3px 3px 6px rgba(255,255,255,0.4),
+            -3px -3px 6px rgba(0,0,0,0.08);
+}
+
+.heart {
+
+}

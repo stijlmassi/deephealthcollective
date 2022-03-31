@@ -1,16 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import "reset.css";
+
+:root{
+    --main-bg-color: #d4dceb;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.bannerWrapper1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #dcfdc2;
+    margin-top: 1rem;
 }
 
-* {
-  box-sizing: border-box;
+div {
+    border-radius: .5rem;
 }
