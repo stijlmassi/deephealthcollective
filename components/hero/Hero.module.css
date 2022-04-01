@@ -1,6 +1,6 @@
 .background {
     background-image: radial-gradient(circle, #aecbd0, #c5b6a3, #a7d2ce, #b0c5d5, #b7e3ff);
-    min-width: 100vw;
+    width: auto;
     min-height: 70vh;
     color: white;
     display: flex;
@@ -31,8 +31,8 @@
 }
 
 .titleCard{
-    padding: 6rem;
-    min-width: 800px;
+    padding: 6em;
+    width: 60%;
     z-index: 1;
 }
 
@@ -54,51 +54,37 @@
             -7px -7px 11px rgba(0,0,0,0.08);
 }
 
-.highlight {
-    color: #2c2c2c;
-}
-
-.underTitle {
-    color: #2c2c2c;
-    margin: auto;
-    font-family: 'Staatliches', cursive;
-    font-size: 3rem;
-    padding: 1.5rem;
-    transition: background-color .7s;
-    min-width: 100%;
-}
-
-.cta {
-    min-width: 430px;
-    display: flex;
-    justify-content: left;
-    margin-right: 20%;
-    padding-bottom: 3%;
-    z-index: 1;
-}
 
 .contactUs {
-    max-width: 600px;
+    width: 600px;
     margin-top: 3rem;
     padding: .42rem .7rem;
     border-radius: .5rem;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    background-color: #ff4d4d;
+    background-color: #fd4242;
     box-shadow: 3px -3px 6px #a8a8a8,
     -3px 3px 6px #cecece;
     text-shadow:
-            3px 3px 6px rgba(255,255,255,0.4),
-            -3px -3px 6px rgba(0,0,0,0.08);
+            5px 5px 10px rgba(255,255,255,0.4),
+            -5px -5px 10px rgba(0,0,0,0.08);
     z-index: 1;
 }
 
-.sun {
-    animation: sun 1000s infinite;
-    z-index: 1;
+.contactUs:hover{
+    background-color: #ff0000;
+    box-shadow: 6px -6px 12px #a8a8a8,
+    -6px 6px 12px #cecece;
+    cursor: pointer;
+}
+
+.contactUs:active {
+    transform: translateY(4px);
+    box-shadow: -3px 3px 6px #a8a8a8,
+    3px -3px 6px #cecece;
 }
 
 .waves {
@@ -106,24 +92,19 @@
     min-width: 100%;
     height: auto;
     z-index: 0;
-    opacity: 70%;
+    opacity: 60%;
 }
 
 .mission {
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    font-size: 2rem;
+    color: #282828;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
     text-align: right;
-    overflow: visible;
-    background-color: #444444;
+    background-color: #ffffff;
     z-index: 1;
+    padding-right: 2%;
 }
 
-@keyframes sun {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
+.highlight {
+    color: #00a0d2;
 }

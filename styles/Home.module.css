@@ -1,7 +1,9 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: #2d3234;
+    background-color: #ffffff;
+    width: auto;
+
 }
 
 .main {
