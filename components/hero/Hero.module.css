@@ -1,5 +1,5 @@
 .background {
-    background-image: radial-gradient(circle, #aecbd0, #c5b6a3, #a7d2ce, #b0c5d5, #b7e3ff);
+    background-image: radial-gradient(circle, #aecbd0, #d7c6ac, #a7d2ce, #b0c5d5, #b7e3ff);
     width: auto;
     min-height: 70vh;
     color: white;
@@ -7,7 +7,7 @@
     justify-content: space-between;
     background-size: 400% 400%;
     animation: gradient 20s alternate infinite;
-    margin-top: -2.9rem;
+    margin-top: -3rem;
     z-index: -1;
 
 }
@@ -68,23 +68,21 @@
     background-color: #fd4242;
     box-shadow: 3px -3px 6px #a8a8a8,
     -3px 3px 6px #cecece;
-    text-shadow:
-            5px 5px 10px rgba(255,255,255,0.4),
-            -5px -5px 10px rgba(0,0,0,0.08);
     z-index: 1;
 }
 
 .contactUs:hover{
     background-color: #ff0000;
-    box-shadow: 6px -6px 12px #a8a8a8,
-    -6px 6px 12px #cecece;
+    box-shadow: -3px 3px 6px #a8a8a8,
+    3px -3px 6px #cecece;
+
     cursor: pointer;
 }
 
 .contactUs:active {
     transform: translateY(4px);
-    box-shadow: -3px 3px 6px #a8a8a8,
-    3px -3px 6px #cecece;
+    box-shadow: 6px -6px 12px #a8a8a8,
+    -6px 6px 12px #cecece;
 }
 
 .waves {
@@ -98,7 +96,7 @@
 .mission {
     color: #282828;
     font-family: 'Amatic SC', cursive;
-    font-size: 2.5em;
+    font-size: 2.8em;
     text-align: right;
     background-color: #ffffff;
     z-index: 1;
@@ -106,5 +104,5 @@
 }
 
 .highlight {
-    color: #00a0d2;
+    color: #0069d2;
 }
