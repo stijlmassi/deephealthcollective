@@ -23,7 +23,6 @@ const Home: NextPage = () => {
         <NavBar/>
         <Hero/>
       <main className={styles.main}>
-          <h2 className={styles.mission}>Empathetic, personalized, comprehensive mental healthcare, right here in Kigali.</h2>
 
       </main>
 

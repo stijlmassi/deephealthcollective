@@ -8,6 +8,8 @@
     background-size: 400% 400%;
     animation: gradient 20s alternate infinite;
     margin-top: -2.9rem;
+    z-index: -1;
+
 }
 
 @keyframes gradient {
@@ -31,6 +33,7 @@
 .titleCard{
     padding: 6rem;
     min-width: 800px;
+    z-index: 1;
 }
 
 .title {
@@ -72,7 +75,6 @@
     margin-right: 20%;
     padding-bottom: 3%;
     opacity: 80%;
-    transform: rotate(20deg);
 }
 
 .contactUs {
@@ -91,8 +93,38 @@
     text-shadow:
             3px 3px 6px rgba(255,255,255,0.4),
             -3px -3px 6px rgba(0,0,0,0.08);
+    z-index: 1;
 }
 
-.heart {
+.sun {
+    animation: sun 1000s infinite;
+}
 
+.waves {
+    position: absolute;
+    bottom: 360px;
+    min-width: 100%;
+    height: auto;
+    z-index: 0;
+    opacity: 70%;
+}
+
+.mission {
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    text-align: right;
+    overflow: visible;
+    background-color: #444444;
+    z-index: 1;
+}
+
+@keyframes sun {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
