@@ -74,7 +74,7 @@
     justify-content: left;
     margin-right: 20%;
     padding-bottom: 3%;
-    opacity: 80%;
+    z-index: 1;
 }
 
 .contactUs {
@@ -98,11 +98,11 @@
 
 .sun {
     animation: sun 1000s infinite;
+    z-index: 1;
 }
 
 .waves {
-    position: absolute;
-    bottom: 360px;
+    margin-top: -50%;
     min-width: 100%;
     height: auto;
     z-index: 0;

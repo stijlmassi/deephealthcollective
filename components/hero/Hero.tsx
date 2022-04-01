@@ -12,8 +12,8 @@ const Hero = () => {
                 <div className={styles.cta}>
                     <img src={"/sun.svg"} alt={"heart"} className={styles.sun}/>
                 </div>
-                <img src={"/waves.svg"} className={styles.waves}/>
             </div>
+            <img src={"/waves.svg"} className={styles.waves}/>
             <h2 className={styles.mission}>
                 Empathetic, personalized, comprehensive mental healthcare, right here in Kigali.
             </h2>
