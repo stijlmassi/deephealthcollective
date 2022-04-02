@@ -1,4 +1,5 @@
 .navBar {
+
     display: flex;
     align-content: center;
     justify-content: flex-end;
@@ -22,6 +23,9 @@
     background-color: transparent;
     border: transparent 1px solid;
     border-bottom: white 1px solid;
+    text-shadow:
+            1px 1px 2px rgba(255,255,255,0.4),
+            -1px -1px 2px rgba(0,0,0,0.08);
 }
 
 .menuItems:hover {
@@ -33,8 +37,8 @@
 
 .menuItems:active {
     transform: translateY(4px);
-    box-shadow: 3px -3px 6px #a8a8a8,
-    -3px 3px 6px #cecece;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 

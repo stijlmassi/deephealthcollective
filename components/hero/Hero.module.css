@@ -1,5 +1,5 @@
 .background {
-    background-image: radial-gradient(circle, #aecbd0, #d7c6ac, #a7d2ce, #b0c5d5, #b7e3ff);
+    background-image: radial-gradient(circle, #a7d7c9, #e5cc8c, #a2d9d3, #adcbe1, #b7e3ff);
     width: auto;
     min-height: 70vh;
     color: white;
@@ -40,12 +40,13 @@
     text-shadow:
             1px 1px 2px rgba(255,255,255,0.4),
             -1px -1px 2px rgba(0,0,0,0.08);
-    caret-color:#262626;
+    caret-color: #3f3f3f;
     outline: none;
     transition: text-shadow 1s;
     font-family: 'Prata', serif;
     font-size: 8rem;
-    max-width: 4rem;
+    background-color: #4b4b4b;
+    max-width: 6rem;
 }
 
 .title:hover {
@@ -59,30 +60,29 @@
     width: 600px;
     margin-top: 3rem;
     padding: .42rem .7rem;
-    border-radius: .5rem;
+    border-radius: .2rem;
     color: white;
     font-size: 1.4em;
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    background-color: #fd4242;
-    box-shadow: 3px -3px 6px #a8a8a8,
-    -3px 3px 6px #cecece;
+    background-color: #01982c;
+    box-shadow: -3px 3px 6px #a8a8a8,
+    3px -3px 6px #cecece;
     z-index: 1;
 }
 
 .contactUs:hover{
-    background-color: #ff0000;
+    background-color: #02c237;
     box-shadow: -3px 3px 6px #a8a8a8,
     3px -3px 6px #cecece;
-
     cursor: pointer;
 }
 
 .contactUs:active {
     transform: translateY(4px);
-    box-shadow: 6px -6px 12px #a8a8a8,
-    -6px 6px 12px #cecece;
+    box-shadow:none;
+    background-color: #02ec42;
 }
 
 .waves {
